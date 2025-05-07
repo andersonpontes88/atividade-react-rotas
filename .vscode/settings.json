@@ -1,0 +1,124 @@
+{
+  "window.zoomLevel": 1,
+  "biome.enabled": false,
+  //Explorer (explorador)  ----------
+  "explorer.compactFolders": false,
+  "workbench.colorCustomizations": {},
+  "workbench.editor.labelFormat": "short",
+  "workbench.colorTheme": "OM Theme (No Italic)",
+  // Editor  ----------
+  "editor.fontFamily": "Geist Mono",
+  "editor.fontWeight": "500",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 20,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderLineHighlight": "all",
+  "editor.parameterHints.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit",
+    "source.fixAll.eslint": "explicit",
+  },
+  // Git  ------------
+  "git.ignoreMissingGitWarning": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  // Emmet / JS  -----------
+  "emmet.preferences": {},
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx, tsx",
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // Terminal ------------
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontWeight": 400,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  // Live Server  ---------
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  // GitLens  ----------
+  "gitlens.advanced.messages": {
+    "suppressCreatePullRequestPrompt": true,
+    "suppressLineUncommittedWarning": true
+  },
+  "cssModules.camelCase": true,
+  "cssModules.pathAlias": {
+    "@styles1": "${workspaceFolder}/src/styles1",
+    "styles2": "${workspaceFolder}/src/styles2"
+  },
+  // Languages  ----------
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsx-tags]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[source.css.styled]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.env.windows": {},
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "cody.commandCodeLenses": false,
+  "cody.codeActions.enabled": true,
+  "cody.suggestions.mode": "autocomplete",
+  "workbench.panel.showLabels": false,
+  "cody.autocomplete.languages": {
+    "*": true
+  }
+}
