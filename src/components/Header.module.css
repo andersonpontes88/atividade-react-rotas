@@ -1,0 +1,43 @@
+.header {
+  background-color: #14294d;
+  color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-bottom: 2px solid #9e2ad6;
+}
+
+.links {
+  position: absolute;
+  right: 20px;
+  background-color: #ff8dff;
+  width: 5%;
+  max-width: 80px;
+  min-width: 70px;
+  border-radius: 5px;
+  padding: 3px 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fffafa;
+}
+
+.links ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links .iconHome,
+.iconCart {
+  color: #9e2ad6;
+  transition: all 0.3s ease-in;
+}
+
+.links .iconHome:hover,
+.iconCart:hover {
+  color: #7600af;
+}

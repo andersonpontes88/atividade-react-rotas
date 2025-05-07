@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  min-height: 90vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+.container div {
+  width: 60%;
+  height: 500px;
+  background-color: #2b1e9c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 10px;
+  position: relative;
+}
+
+.container div h2,
+h4 {
+  color: #fff;
+}
+
+.container div h2 {
+  font-size: 3rem;
+}
+
+.container div h4 {
+  font-size: 1.5rem;
+}
+
+.container div .btn {
+  position: absolute;
+  bottom: 8%;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #9e2ad6;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.container div .btn a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+
+.container div .btn:hover a {
+  color: #bab9b9;
+}
+
+.container div .btn:hover {
+  background-color: #791f9a;
+}
+
+.container div .iconGear {
+  color: red;
+  filter: drop-shadow(0 0 10px #ffffff);
+  position: absolute;
+  bottom: 20%;
+  animation: rotate 4s linear infinite;
+  font-size: 70px;
+}
+
+/* Animação da engranagem girando 360° */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
